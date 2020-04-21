@@ -1,5 +1,7 @@
-<h2>Film Details - <%= @film.title %></h2>
+
+<h2 class="film_title"><%= @film.title %></h2>
 <ul>
-    <li>Price: £<%= @film.price%></li>
+    <li>Ticket price: £<%= @film.price%></li>
+    <li>Screenings: <%= @film.screenings   %>  </li>
 </ul>
-<a href="/index"><< Back to Index</a>
+<a class="back_button" href="/index"><< Back to Index</a>
